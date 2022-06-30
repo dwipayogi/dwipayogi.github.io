@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/mediaqueries.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Dwipa Yogiswara</title>
 </head>
@@ -13,12 +14,14 @@
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Certificate</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#certificate">Certificate</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+
+    <!-- header -->
     <header>
         <img src="./assets/img/pasfoto.jpg" alt="foto profil">
         <div class="name">
@@ -33,5 +36,38 @@
             </ul>
         </div>
     </header>
+    <main>
+        <!-- about me -->
+        <article id="about">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore ad itaque alias doloribus. Placeat,
+                nostrum nobis odit quis minus rem voluptatibus ex ullam quasi a dicta atque excepturi corrupti praesentium recusandae, 
+                molestiae dolorem consequuntur laudantium veritatis quam accusantium labore explicabo maxime. 
+                Ad praesentium quia dolorum in fugit rerum distinctio enim aliquid quas harum ut ipsa explicabo nisi,
+                optio dolores tenetur?
+        </article>
+
+        <!-- certificate -->
+        <article id="certificate">
+            <h3>Certificate</h3>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="./assets/img/certificate-html-sololearn.jpg">
+                        <img src="./assets/img/certificate-html-sololearn.jpg" alt="sololearn html certificate" width="400">
+                    </a>
+                    <div class="description">HTML Sololearn</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="./assets/img/dicoding certificate.png">
+                        <img src="./assets/img/dicoding certificate.png" alt="dicoding certificate" width="400">
+                    </a>
+                    <div class="description">Belajar Dasar Pemrograman Web Dicoding</div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </article>
+    </main>
 </body>
 </html>
