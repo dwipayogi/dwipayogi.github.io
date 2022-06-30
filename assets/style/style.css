@@ -1,0 +1,85 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* navbar */
+nav {
+    background-color: black;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+    padding: 10px;
+    margin: 8px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav li:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+/* text setting */
+h1 {
+    font-size: 5.5vw;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 20px 0px;
+}
+h2 {
+    font-size: 4vw;
+}
+/* header */
+header img {
+    max-width: 250px;
+    float: right;
+    margin: 80px;
+    position: relative;
+    top: -60px;
+}
+header .name {
+    margin: 120px 0px 20px 80px;
+}
+header span {
+    color: blue;
+}
+button {
+    background-color: #0059ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 36px 0px 46px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+header .name ul {
+    position: relative;
+    list-style-type: none;
+    right: 32px;
+}
+header .name ul li {
+    display: inline;
+    padding-right: 20px;
+    margin: 0;
+}
+header .name ul li a{
+    color: black;
+}
