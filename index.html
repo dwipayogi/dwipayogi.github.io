@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/style/mediaqueries.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dwipa Yogiswara</title>
 </head>
 <body>
     <!-- navbar -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#certificate">Certificate</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <nav class="navbar" id="topNav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#certificate">Certificate</a>
+        <a href="#project">Project</a>
+        <a href="#">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="navbar()">
+            <i class="fa fa-bars"></i>
+        </a>
     </nav>
 
     <!-- header -->
@@ -28,12 +30,12 @@
             <h2>Hai</h2>
             <h1>Saya <span>Dwipa Yogiswara</span></h1>
             <button>Tentang Saya</button>
-            <ul>
-                <li><a href=""><i class='bx bxl-facebook-circle bx-md bx-flashing-hover'></i></a></li>
-                <li><a href=""><i class='bx bxl-instagram-alt bx-md bx-flashing-hover'></i></a></li>
-                <li><a href=""><i class='bx bxl-twitter bx-md bx-flashing-hover'></i></a></li>
-                <li><a href=""><i class='bx bxl-github bx-md bx-flashing-hover'></i></a></li>
-            </ul>
+            <div class="sosmed">
+                <a href=""><i class='bx bxl-facebook-circle bx-md bx-flashing-hover'></i></a>
+                <a href=""><i class='bx bxl-instagram-alt bx-md bx-flashing-hover'></i></a>
+                <a href=""><i class='bx bxl-twitter bx-md bx-flashing-hover'></i></a>
+                <a href=""><i class='bx bxl-github bx-md bx-flashing-hover'></i></a>
+            </div>
         </div>
     </header>
     <main>
@@ -68,6 +70,14 @@
             </div>
             <div class="clearfix"></div>
         </article>
+
+        <!-- blog -->
+        <article id="project">
+            <h3>Project</h3>
+
+        </article>
     </main>
+
+    <script src="./assets/scripts/script.js"></script>
 </body>
 </html>

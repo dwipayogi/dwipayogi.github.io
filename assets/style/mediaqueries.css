@@ -1,12 +1,51 @@
 @media only screen and (max-width: 768px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
+  /* responsive margin text setting */
+  h1 {
+    margin: 10px;
+  }
+  h3 {
+    margin: 100px 0px 20px 0px;
+  }
+  /* responsive navbar */
+  nav a:not(:first-child) {display: none;}
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+  nav.responsivenav {position: relative;}
+  nav.responsivenav .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsivenav a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* responsive header */
+  header img {
+    margin: 80px auto 0px;
+    display: block;
+    float: none;
+  }
+  header .name {
+    margin: 30px auto 0px;
+    text-align: center;
+  }
+  header .name a {
+    padding: 20px;
+  }
+  /* responsive certificate */
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
+  .responsive {
+      width: 100%;
+  }
 }
