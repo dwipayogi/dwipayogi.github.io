@@ -64,7 +64,7 @@ header .name {
 header span {
     color: blue;
 }
-button {
+header button {
     background-color: #0059ff;
     border: none;
     color: white;
@@ -121,4 +121,74 @@ header .name a{
     content: "";
     display: table;
     clear: both;
+}
+
+/* contact */
+#contact {
+    text-align: center;
+    margin: auto;
+}
+#contact p {
+    text-align: center;
+    margin: 8px;
+}
+.email {
+    width: 50%;
+    height: 40px;
+    font-size: 1.3vw;
+}
+.message {
+    width: 50%;
+    height: 40px;
+    font-size: 1.3vw;
+}
+#contact button {
+    background-color: #0059ff;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 0px 40px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* footer */
+footer {
+    background-color: rgb(37, 37, 37);
+    height: 350px;
+}
+.sosmed, .menu, .text {
+    float: left;
+    width: 33.3%;
+    padding-top: 30px;
+}
+.sosmed li, .menu li {
+    list-style: none;
+    padding: 20px;
+    font-size: 1vw;
+}
+.sosmed a, .menu a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.sosmed a:hover, .menu a:hover {
+    font-weight: bolder;
+}
+
+.text p{
+    font-size: 8vw;
+    text-align: center;
+    animation-name: text-rgb;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes text-rgb {
+    from {color: rgb(13, 0, 255)}
+    to {color: rgb(255, 0, 0);}
 }

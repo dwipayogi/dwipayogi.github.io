@@ -5,4 +5,11 @@ function navbar() {
     } else {
       x.className = "navbar";
     }
-  }
+}
+
+
+document.getElementById("submit").addEventListener("click", SubmitFunction);
+
+function SubmitFunction() {
+ alert("Tidak berfungsi");
+}

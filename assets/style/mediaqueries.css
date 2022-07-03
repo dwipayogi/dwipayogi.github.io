@@ -42,8 +42,29 @@
     width: 49.99999%;
     margin: 6px 0;
   }
-}
 
+  /* responsive contact */
+  .email, .message {
+    width: 80%;
+  }
+  #contact button {
+    padding: 9px 18px;
+    font-size: 12px;
+  }
+
+  /* responsive footer */
+  footer {
+    height: 300px;
+  }
+  .sosmed, .menu {
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+  }
+  .text {
+    display: none;
+  }
+}
 @media only screen and (max-width: 500px) {
   .responsive {
       width: 100%;
