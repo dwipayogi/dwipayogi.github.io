@@ -5,6 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -123,6 +126,30 @@ header .name a{
     clear: both;
 }
 
+/* project */
+.project {
+    background-image: url('../img/html.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+.timer {
+    text-align: center;
+    font-size: 9vw;
+    padding: 80px 0px;
+}
+#timer {
+    text-align: center;
+    font-size: 4vw;
+    padding: 40px 0px 50px 0px;
+}
+hr {
+    width: 50%;
+    margin: auto;
+}
 /* contact */
 #contact {
     text-align: center;
