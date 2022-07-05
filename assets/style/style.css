@@ -36,20 +36,20 @@ nav .icon {
 }
 /* text setting */
 h1 {
-    font-size: 5.5vw;
+    font-size: 90px;
     font-family: 'Nunito Sans', sans-serif;
     margin: 20px 0px;
 }
 h2 {
-    font-size: 4vw;
+    font-size: 50px;
 }
 h3 {
-    font-size: 3.5vw;
+    font-size: 54px;
     text-align: center;
     margin: 240px 0px 40px 0px;
 }
 p {
-    font-size: 1.7vw;
+    font-size: 30px;
     text-align: justify;
 }
 
@@ -67,20 +67,25 @@ header .name {
 header span {
     color: blue;
 }
-header button {
+header .name button {
     background-color: #0059ff;
     border: none;
-    color: white;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     margin: 36px 0px 46px 10px;
     cursor: pointer;
     border-radius: 10px;
 }
-button:hover {
+header .name button a {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 10px;
+}
+header .name button:hover {
     background-color: #0045c4;
 }
 header .name a{
@@ -92,7 +97,9 @@ header .name a{
 #about {
     margin: 40px;
 }
-
+#about span {
+    color: blue;
+}
 /* certificate */
 .gallery {
     border: 1px solid rgb(170, 170, 170);
@@ -153,21 +160,16 @@ hr {
 /* contact */
 #contact {
     text-align: center;
-    margin: auto;
+    margin: 0px auto 100px auto;
 }
 #contact p {
     text-align: center;
     margin: 8px;
 }
-.email {
+.email, .message {
     width: 50%;
     height: 40px;
-    font-size: 1.3vw;
-}
-.message {
-    width: 50%;
-    height: 40px;
-    font-size: 1.3vw;
+    font-size: 20px;
 }
 #contact button {
     background-color: #0059ff;
@@ -186,17 +188,17 @@ hr {
 /* footer */
 footer {
     background-color: rgb(37, 37, 37);
-    height: 350px;
+    height: 400px;
 }
 .sosmed, .menu, .text {
     float: left;
-    width: 33.3%;
+    width: 50%;
     padding-top: 30px;
 }
 .sosmed li, .menu li {
     list-style: none;
     padding: 20px;
-    font-size: 1vw;
+    font-size: 18px;
 }
 .sosmed a, .menu a{
     text-decoration: none;
@@ -206,16 +208,8 @@ footer {
 .sosmed a:hover, .menu a:hover {
     font-weight: bolder;
 }
-
-.text p{
-    font-size: 8vw;
+.copyright p{
     text-align: center;
-    animation-name: text-rgb;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@keyframes text-rgb {
-    from {color: rgb(13, 0, 255)}
-    to {color: rgb(255, 0, 0);}
+    color: white;
+    font-size: 18px;
 }

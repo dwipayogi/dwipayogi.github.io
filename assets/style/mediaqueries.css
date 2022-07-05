@@ -1,12 +1,24 @@
 @media only screen and (max-width: 768px) {
   /* responsive margin text setting */
   h1 {
+    font-size: 65px;
     margin: 10px;
+  }
+  h2 {
+    font-size: 40px;
   }
   h3 {
     margin: 100px 0px 20px 0px;
+    font-size: 40px;
   }
+  p {
+    font-size: 20px;
+  }
+
   /* responsive navbar */
+  nav {
+    position: relative;
+}
   nav a:not(:first-child) {display: none;}
   nav a.icon {
     float: right;
@@ -46,6 +58,7 @@
   /* responsive contact */
   .email, .message {
     width: 80%;
+    font-size: 14px;
   }
   #contact button {
     padding: 9px 18px;
@@ -54,18 +67,16 @@
 
   /* responsive footer */
   footer {
-    height: 300px;
+    height: 350px;
   }
-  .sosmed, .menu {
-    float: left;
-    width: 50%;
-    padding-top: 30px;
+  .sosmed li, .menu li {
+    font-size: 10px;
   }
-  .text {
-    display: none;
-  }
+  .copyright p{
+    font-size: 13px;
 }
-@media only screen and (max-width: 500px) {
+}
+@media only screen and (max-width: 600px) {
   .responsive {
       width: 100%;
   }

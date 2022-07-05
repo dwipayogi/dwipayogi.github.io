@@ -11,7 +11,7 @@ function navbar() {
 document.getElementById("submit").addEventListener("click", SubmitFunction);
 
 function SubmitFunction() {
- alert("Tidak berfungsi");
+ alert("kaga bisa banh");
 }
 
 // Set the date we're counting down to
