@@ -93,11 +93,13 @@
         <!-- contact -->
         <article id="contact">
             <h3>Kontak</h3>
-            <p>Email</p>
-            <input class="email" type="email" placeholder="tulis email disini">
-            <p>Message</p>
-            <input class="message" type="text"  placeholder="isi pesan"><br>
-            <button id="submit" type="submit">Kirim</button>
+            <form action="#">
+                <label for="email">Email</label>
+                <input class="email" type="email" placeholder="tulis email disini" required>
+                <label for="message">Message</label>
+                <input class="message" type="text"  placeholder="isi pesan" required><br>
+                <input id="submit" type="submit"></input>
+            </form>
         </article>
     </main>
     <footer>
@@ -120,8 +122,8 @@
             </ul>
         </div>
         <div class="copyright">
-            <p>Copyright &#169; 2022 v0.1.6 <br>
-            Dibuat oleh Dwipa Yogiswara sebagai project akhir dicoding</p>
+            <p>Copyright &#169; 2022 v1.0.0 <br>
+            Dibuat oleh Dwipa Yogiswara</p>
         </div>
     </footer>
     <script src="./assets/scripts/script.js"></script>

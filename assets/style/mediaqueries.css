@@ -60,11 +60,10 @@
     width: 80%;
     font-size: 14px;
   }
-  #contact button {
-    padding: 9px 18px;
-    font-size: 12px;
+  #submit {
+    width: 100px;
+    margin: 16px auto;
   }
-
   /* responsive footer */
   footer {
     height: 350px;

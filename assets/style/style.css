@@ -12,7 +12,9 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
-
+article {
+    margin: 100px 0px;
+}
 /* navbar */
 nav {
     background-color: black;
@@ -46,7 +48,7 @@ h2 {
 h3 {
     font-size: 54px;
     text-align: center;
-    margin: 240px 0px 40px 0px;
+    margin: 60px 0px 30px 0px;
 }
 p {
     font-size: 30px;
@@ -95,12 +97,15 @@ header .name a{
 
 /* about me */
 #about {
-    margin: 40px;
+    padding-top: 20px;
 }
 #about span {
     color: blue;
 }
 /* certificate */
+#certificate {
+    padding-top: 4px;
+}
 .gallery {
     border: 1px solid rgb(170, 170, 170);
 }
@@ -134,6 +139,9 @@ header .name a{
 }
 
 /* project */
+#project {
+    padding-top: 4px;
+}
 .project {
     background-image: url('../img/html.jpg');
     height: 100%;
@@ -142,6 +150,7 @@ header .name a{
     position: relative;
     color: white;
     font-size: 25px;
+    padding: 36px;
 }
 .timer {
     text-align: center;
@@ -160,16 +169,38 @@ hr {
 /* contact */
 #contact {
     text-align: center;
-    margin: 0px auto 100px auto;
+    padding-top: 20px;
 }
 #contact p {
     text-align: center;
     margin: 8px;
 }
-.email, .message {
+label, input {
     width: 50%;
     height: 40px;
     font-size: 20px;
+    display: block;
+    margin: auto;
+    outline: none;
+}
+label {
+    margin: 20px auto;
+}
+.email, .message {
+    background: rgb(228, 237, 255);
+    border-color: #0059ff;
+}
+#submit {
+    width: 200px;
+    margin: 20px auto;
+    color: #0059ff;
+    border-color: #0059ff;
+    background-color: white;
+}
+#submit:hover {
+    color: white;
+    border-color: #0059ff;
+    background-color: #0059ff;
 }
 #contact button {
     background-color: #0059ff;
@@ -188,7 +219,7 @@ hr {
 /* footer */
 footer {
     background-color: rgb(37, 37, 37);
-    height: 400px;
+    height: 380px;
 }
 .sosmed, .menu, .text {
     float: left;
@@ -211,5 +242,5 @@ footer {
 .copyright p{
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
