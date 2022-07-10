@@ -15,6 +15,9 @@ body {
 article {
     margin: 100px 0px;
 }
+h1, h2, h3, p {
+    cursor: default;
+}
 /* navbar */
 nav {
     background-color: black;
@@ -102,6 +105,9 @@ header .name a{
 #about span {
     color: blue;
 }
+#about p {
+    margin: 0px 60px;
+}
 /* certificate */
 #certificate {
     padding-top: 4px;
@@ -184,14 +190,14 @@ label, input {
     outline: none;
 }
 label {
-    margin: 20px auto;
+    margin: 20px auto 4px auto;
 }
 .email, .message {
     background: rgb(228, 237, 255);
     border-color: #0059ff;
 }
 #submit {
-    width: 200px;
+    width: 160px;
     margin: 20px auto;
     color: #0059ff;
     border-color: #0059ff;
@@ -201,19 +207,6 @@ label {
     color: white;
     border-color: #0059ff;
     background-color: #0059ff;
-}
-#contact button {
-    background-color: #0059ff;
-    border: none;
-    color: white;
-    padding: 12px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 30px 0px 40px 0px;
-    cursor: pointer;
-    border-radius: 10px;
 }
 
 /* footer */

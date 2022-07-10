@@ -42,3 +42,4 @@ var x = setInterval(function() {
     document.getElementsById("timer").innerHTML = "EXPIRED";
   }
 }, 1000);
+
